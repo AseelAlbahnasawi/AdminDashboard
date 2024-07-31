@@ -1,0 +1,29 @@
+/* src/styles/DataTable.css */
+.data-table {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 48%;
+  }
+   
+  .data-table h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+   
+  .data-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+   
+  .data-table th, .data-table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+   
+  .data-table th {
+    font-weight: bold;
+    color: #666;
+  }

@@ -1,0 +1,36 @@
+/* src/styles/DoctorsList.css */
+.doctors-list {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+   
+  .doctors-list h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+   
+  .doctors-list ul {
+    list-style-type: none;
+  }
+   
+  .doctors-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+   
+  .doctors-list img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+   
+  .doctors-list span:last-child {
+    color: #666;
+    font-size: 14px;
+    margin-left: auto;
+  }

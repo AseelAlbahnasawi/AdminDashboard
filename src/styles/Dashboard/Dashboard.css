@@ -1,0 +1,47 @@
+/* src/styles/Dashboard.css */
+.dashboard {
+    display: flex;
+    height: 100vh;
+  }
+   
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+   
+  .stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+   
+  .action-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+   
+  .action-buttons button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+   
+  .add-doctor {
+    background-color: #007bff;
+  }
+   
+  .add-patient {
+    background-color: #28a745;
+  }
+   
+  .data-tables {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
